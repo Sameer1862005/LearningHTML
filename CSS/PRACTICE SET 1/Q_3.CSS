@@ -1,0 +1,13 @@
+#search{
+    background-color: green;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    width:100px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,76 @@
+        h1{
+            color:darkolivegreen;
+        }
+        p{
+            color:rgb(201, 101, 38)
+        }
+        button{
+            color:rgb(254, 195, 0);
+            background-color:rgb(27, 127, 234);
+        }
+
+        body{
+            background-color:rgba(14, 172, 172, 0.187);
+        }
+        /* SELECTORS
+        . UNIVERSAL SELECTOR
+                {}
+        . ELEMENT SELECTOR
+                H1{}
+        .ID SELECTOR
+                #myid{}
+        .CLASS SELECTOR
+                .myclass{} */
+        /* TEXT PROPERTIES  */
+        h1{
+            text-align:center;
+            text-decoration: wavy underline;
+        }
+        /* TEXT DECORATION */
+        #h1{
+            font-weight: bold;
+            text-decoration:wavy underline;
+        }
+        #h2{
+            font-weight: normal;
+            text-decoration:wavy underline;
+        }#h3{
+            font-weight: bolder;
+            text-decoration:wavy underline;
+        }
+        #h4{
+            font-weight: lighter;
+            text-decoration:wavy underline;
+        }
+        /* font family */
+        #p1{
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 20px;
+            text-transform: capitalize;
+        }
+        #p2{
+            font-family: 'Arial', Times, serif;
+            line-height: 20px;
+                text-transform: uppercase;
+        }
+        #p3{
+            font-family: 'roboto', Times, serif;
+            line-height: 20px;
+                text-transform: lowercase;
+        }
+        #p4{
+            font-family: 'sans-serif', Times, serif;
+        }
+        /* UNIT IN CSS 
+        .absolute unit
+        .relative unit*/
+        #h0{
+            font-size: 15px;
+        }
+        #h5{
+            font-size: 20px;
+        }
+        #h6{
+            font-size: 25px;
+        }
+
