@@ -3,52 +3,134 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HABBI GRILL</title>
+    <title>Habibi Grill</title>
     <link rel="stylesheet" href="wholeweb.css" />
   </head>
   <body>
-    <form action="action.php"><div>
-       <pre>
-        <P><B>| Home | Menu | contact | JOBS | </B>
-        </P> 
-        <h1>HABIBI GRILL</h1>
-         <p>Welcome to Habibi Grill, where we serve delicious Middle Eastern cuisine with a modern twist.Our menu features a variety of dishes inspired by traditional flavors and ingredients,all<br> prepared with the freshest and highest quality ingredients. Whether you're in the mood for a hearty shawarma wrap, a flavorful falafel plate, or a refreshing tabbouleh salad,<br> we have something for everyone.Come dine with us and experience the vibrant flavors of the Middle East at Habibi Grill!</p>
-        <h2>Menu</h2>
-        <ul>
-            <li>Shawarma Wrap</li>
-            <li>Falafel Plate</li>
-            <li>Tabbouleh Salad</li>
-            <li>Hummus and Pita</li>
-            <li>Kebabs</li>
-        <select name="order" style="-webkit-text-fill-color: black">
-        <option value="Shawarma Wrap" >Shawarma Wrap</option>
-        <option value="Falafel Plate">Falafel Plate</option>
-        <option value="Tabbouleh Salad">Islamabad</option>
-        <option value="Tabbouleh Salad">Tabbouleh Salad</option>
-        <option value="hummas and pity">hummas and pitty</option>
-        <option value="kebabs">kebabs</option>
-        
-      <input type="submit" value = "submit" style="-webkit-text-fill-color: black">
-      </select> 
-
-        <button style="-webkit-text-fill-color: black">ORDER NOW</button>
+    <!-- Navigation -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">HABIBI GRILL</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#jobs">Jobs</a></li>
         </ul>
-        <h2>Contact Us</h2>
-        <p>Address: 123 Main Street, Anytown, USA</p>
-        <p>Phone: (123) 456-7890</p>
-        <p>Email: info@habibigrill.com</p>    
-        <button style="-webkit-text-fill-color: black">CONTACT US</button>
+      </nav>
+    </header>
 
-        <textarea name="feedback" id = "ta" placeholder = "write your complain."></textarea>  
-        <h3>Jobs</h3>
-        <p>We are always looking for talented individuals to join our team. If you are passionate about Middle Eastern cuisine and have experience in the food industry, we would love to hear from you!</p>
-        <button style="-webkit-text-fill-color: black">JOBS</button>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Habibi Grill</h1>
+        <p>
+          Experience authentic Middle Eastern flavors prepared with fresh
+          ingredients and served with passion.
+        </p>
+        <a href="#menu" class="btn">Explore Menu</a>
+      </div>
+    </section>
 
-        <textarea name="feedback" id = "ta" placeholder = "write about your self"></textarea>
-    </pre>
-    </div>
+    <!-- About -->
+    <section class="about">
+      <h2>About Us</h2>
+      <p>
+        At Habibi Grill, we serve delicious shawarmas, kebabs, falafel, hummus,
+        and many more traditional Middle Eastern dishes. Our mission is to
+        provide a memorable dining experience with authentic flavors.
+      </p>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="menu">
+      <h2>Our Menu</h2>
+
+      <div class="menu-container">
+        <div class="card">
+          <h3>Shawarma Wrap</h3>
+          <p>Juicy chicken wrapped in fresh pita bread.</p>
+          <span>$8.99</span>
+        </div>
+
+        <div class="card">
+          <h3>Falafel Plate</h3>
+          <p>Crispy falafel served with tahini sauce.</p>
+          <span>$7.99</span>
+        </div>
+
+        <div class="card">
+          <h3>Tabbouleh Salad</h3>
+          <p>Fresh parsley, tomatoes and lemon dressing.</p>
+          <span>$6.99</span>
+        </div>
+
+        <div class="card">
+          <h3>Hummus & Pita</h3>
+          <p>Creamy hummus served with warm pita bread.</p>
+          <span>$5.99</span>
+        </div>
+
+        <div class="card">
+          <h3>Mixed Kebabs</h3>
+          <p>Grilled meat skewers with rice and salad.</p>
+          <span>$12.99</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video -->
+    <section class="video-section">
+      <h2>Our Kitchen</h2>
+
+      <iframe
+        width="700"
+        height="400"
+        src="https://www.youtube.com/embed/xrUi6OfmHmo"
+        title="Habibi Grill Video"
+        allowfullscreen
+      >
+      </iframe>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+
+      <div class="contact-info">
+        <p><strong>Address:</strong> 123 Main Street, Abbottabad</p>
+        <p><strong>Phone:</strong> +92 300 1234567</p>
+        <p><strong>Email:</strong> info@habibigrill.com</p>
+      </div>
+
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Write your message..." rows="5"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Jobs -->
+    <section id="jobs" class="jobs">
+      <h2>Careers</h2>
+
+      <p>
+        We are looking for passionate chefs, waiters, and kitchen staff. Join
+        our team and grow with Habibi Grill.
+      </p>
+
+      <form>
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email" />
+        <textarea rows="5" placeholder="Tell us about yourself"></textarea>
+        <button type="submit">Apply Now</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Habibi Grill. All Rights Reserved.</p>
+    </footer>
   </body>
-</form>
-    
 </html>
- 
