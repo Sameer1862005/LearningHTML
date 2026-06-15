@@ -1,0 +1,18 @@
+.navbar{
+    background-color: black;
+    display: flex;
+    width: auto;
+}
+#logo{
+    -webkit-text-fill-color: orange;
+    font-size: 25px;
+}
+a{
+    -webkit-text-fill-color: white;
+    margin-right: 180px;
+    background-color: black;
+}
+button{
+    -webkit-text-fill-color: white;
+    background-color: orange;
+}
