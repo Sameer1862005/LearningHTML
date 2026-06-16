@@ -1,18 +1,20 @@
-.navbar{
-    background-color: black;
-    display: flex;
-    width: auto;
+*{
+    padding:0;
+    margin:0;
+    color: white;
+}
+nav{
+    height: 60px;
+    background-color: #0f1111;
+}
+button{
+    background-color: orange;
 }
 #logo{
-    -webkit-text-fill-color: orange;
+    color:orange;
     font-size: 25px;
 }
 a{
-    -webkit-text-fill-color: white;
-    margin-right: 180px;
-    background-color: black;
-}
-button{
-    -webkit-text-fill-color: white;
-    background-color: orange;
+    margin-right: 190px;
+    text-decoration: none;
 }

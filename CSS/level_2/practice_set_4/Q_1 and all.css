@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+#logo{
+    -webkit-text-fill-color: orange;
+    font-size: 25px;
+}
+a{
+    margin-right: 185px;
+    -webkit-text-fill-color: white;
+}
+header{
+    background-color: black;
+}
+button{
+    -webkit-text-fill-color: white;
+    background-color: orange;
+    border: -2px;
+    border-color: rgb(210, 149, 26);
+}
+.boxone{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color:rgba(255,0,0,0.5)
+}
+.boxtwo{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color:rgba(0,255,0,0.5)
+}
+.boxthree{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color:rgba(0,0,255,0.5)
+}
+footer{
+    background-color: black;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    text-align: center;
+}
+#ONE{
+    height: 520px;
+}

@@ -1,0 +1,11 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-image: url("game_image.png.png");
+    background-size: cover;
+    border-radius: 20px;
+    -webkit-text-fill-color:rgb(2, 2, 3);
+    font-weight: bolder;
+    position: fixed;
+    right: 0%;
+}

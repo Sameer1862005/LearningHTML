@@ -1,0 +1,66 @@
+/* relative units in css */
+/* %  ,  em   ,  rem */
+#parent{
+    height: 100px;
+    width: 200px;
+    background-color:rgb(23, 64, 199);
+    font-size: 10px;
+}
+#child{
+    height: 50px;
+    width: 30%;
+    background-color: rgb(14, 79, 57);
+    margin-left: 10%;
+    font-size: 2em;
+}
+/* position property */
+/* static   ,  relaive ,  absolute ,  fixed */
+#box1{
+    height: 100px;
+    width: 100px;
+    /* nothing will happend because static means self position */
+    position: static;
+    top: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: tomato;
+    background-image: url("game_image.png.png");
+    background-size: cover;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 5px;
+    /* z-index means z line upper side positive value and lower side negative value */
+    right: 10px;
+    z-index: -1;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: aqua;
+    background-image: url("game_image.png.png");
+    background-size: cover;
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: blueviolet;
+    background-image: url("game_image.png.png");
+    background-size: cover;
+}
+#box4{
+    height: 100px;
+    width: 100px;
+    /* position: fixed; */
+    top: 2px;
+    left: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: yellowgreen;
+    background-image: url("game_image.png.png");
+    background-size: cover;
+} 
