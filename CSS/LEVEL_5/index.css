@@ -1,0 +1,82 @@
+.navbar{
+    background-color: black;
+    -webkit-text-fill-color: white;
+    
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    margin-top: -9px;
+    
+    
+}
+a{
+    text-decoration: none;
+    /* transition-property: all;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    transition-duration: 90ms; */
+}
+a:hover{
+    background-color: rgba(247, 244, 244, 0.493);
+    font-size: 20px;
+    
+}
+a:active{
+    background-color: rgb(154, 15, 15);
+}
+.divbar{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* transition-duration: 2s; */
+    margin: 300px;
+    
+    
+}
+.divbar:hover{
+    background-color: rgba(25, 145, 185, 0.493);
+    font-size: 20px;
+    /* transform: scale(2);
+    rotate: 360deg; */
+    /* transform: translateX(200px); */
+    /* transform: skew(20deg); */
+}
+.divbar:active{
+    background-color: rgb(154, 15, 15);
+    
+}
+.khan{
+    height: 100px;
+    width: 100px;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 500px;
+    background-color: burlywood;
+    position: absolute;
+    border: 2px solid black;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    border-radius: 50%;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function:step;
+    
+}
+@keyframes animation{
+    0%{ bottom: 0px;
+    background-color: red;}
+    35%{background-color: antiquewhite;}
+    100%{top:50px;
+    background-color: green;}
+}

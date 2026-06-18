@@ -1,0 +1,17 @@
+.spin{
+    height: 300px;
+    width: 300px;
+    border-radius:  50%;
+     border: 10px solid wheat;
+    border-top:10px solid #000000 ;
+    animation: spinload 3s ease-in-out 0s infinite normal;
+
+}
+@keyframes spinload{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
